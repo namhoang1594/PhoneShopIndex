@@ -1,0 +1,628 @@
+<section id="blog-section" class="blog-section w100dt mb-50" *ngFor="let blog of blogs">
+    <div class="container1">
+        <div class="row">
+
+            <div class="cal s12 m8 l8">
+                <div class="blogs mb-30">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/blog-realme-770x350.jpg" alt="Image">
+                            <a class="btn-floating center-align cmn-bgcolor halfway-fab waves-effect waves-light">
+                                <i class="icofont icofont-camera-alt"></i>
+                            </a>
+                        </div>
+                        <div class="card-content w100dt">
+                            <p>
+                                <a href="#" class="tag left w100dt l-blue mb-30">{{blog.TypeofDocument}}</a>
+                            </p>
+                            <a href="" class="card-title">
+                                {{ blog.Title }}
+                            </a>
+                            <p class="mb-30">
+                                {{ blog.ShortContents }}
+                            </p>
+                            <ul class="post-mate-time left">
+                                <li>
+                                    <p class="hero left">
+                                        By - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="icofont icofont-ui-calendar"></i> 20/4/2021
+                                </li>
+                            </ul>
+                            <ul class="post-mate right">
+                                <li class="like">
+                                    <a href="#">
+                                        <i class="icofont icofont-heart-alt"></i> 55
+                                    </a>
+                                </li>
+                                <li class="comment">
+                                    <a href="#">
+                                        <i class="icofont icofont-comment"></i> 32
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="pagination w100dt">
+                    <li class="waves-effect"><a href="#!"><i class="icofont icofont-simple-left"></i></a></li>
+                    <li class="active"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="icofont icofont-simple-right"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="cal s12 m4 l4">
+
+                <div class="featured-posts w100dt mb-30">
+                    <div class="sidebar-title center-align">
+                        <h2>Tin HOT</h2>
+                    </div>
+
+                    <div class="sidebar-posts">
+                        <div class="card">
+                            <div class="card-image mb-10">
+                                <img src="img/blog3.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="card-content w100dt">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="card-title">
+                                    Giảm chạm nóc 49% cho loạt đồng hồ Q&Q sành điệu, 
+                                    có khả năng chống nước, giá bán chỉ từ vài trăm ngàn									
+                                </a>
+                                <ul class="post-mate-time left">
+                                    <li>
+                                        <p class="hero left">
+                                            By - <a href="#" class="l-blue">PhoneShop</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul class="post-mate right">
+                                    <li class="like">
+                                        <a href="#">
+                                            <i class="icofont icofont-heart-alt"></i> 55
+                                        </a>
+                                    </li>
+                                    <li class="comment">
+                                        <a href="#">
+                                            <i class="icofont icofont-comment"></i> 32
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image mb-10">
+                                <img src="img/blog1.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="card-content w100dt">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="card-title">
+                                    Đánh giá camera Xiaomi Mi 11 Lite: Không cần qua app 
+                                    chỉnh sửa vì bức ảnh đã sinh động và hấp dẫn đến lạ									
+                                </a>
+                                <ul class="post-mate-time left">
+                                    <li>
+                                        <p class="hero left">
+                                            By - <a href="#" class="l-blue">PhoneShop</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul class="post-mate right">
+                                    <li class="like">
+                                        <a href="#">
+                                            <i class="icofont icofont-heart-alt"></i> 55
+                                        </a>
+                                    </li>
+                                    <li class="comment">
+                                        <a href="#">
+                                            <i class="icofont icofont-comment"></i> 32
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image mb-10">
+                                <img src="img/blog2.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="card-content w100dt">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="card-title">
+                                    Săn sale xịn, 5 mẫu smartphone trong phân khúc dưới 7 triệu đang giảm sâu, 
+                                    viên pin lớn, hiệu năng mạnh mẽ, chớ bỏ qua									
+                                </a>
+                                <ul class="post-mate-time left">
+                                    <li>
+                                        <p class="hero left">
+                                            By - <a href="#" class="l-blue">PhoneShop</a>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="post-mate right">
+                                    <li class="like">
+                                        <a href="#">
+                                            <i class="icofont icofont-heart-alt"></i> 55
+                                        </a>
+                                    </li>
+                                    <li class="comment">
+                                        <a href="#">
+                                            <i class="icofont icofont-comment"></i> 32
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-post w100dt mb-30">
+                    <div class="sidebar-title center-align">
+                        <h2>Nổi bật</h2>
+                    </div>
+
+                    <ul id="tabs-swipe-demo" class="top-post-tab tabs tabs-fixed-width">
+                        <li class="tab"><a href="#test-swipe-1" class="active">Đọc nhiều</a></li>
+                        <li class="tab"><a href="#test-swipe-2">Phổ biến</a></li>
+                        <li class="tab"><a href="#test-swipe-3">Thảo luận nhiều</a></li>
+                    </ul>
+
+                    <div id="test-swipe-1" class="tab-contant most-view">
+                        <div class="sidebar-posts">
+                            <div class="card">
+                                <div class="card-image mb-10">
+                                    <img src="img/fashion.jpg" alt="Image">
+                                    <span class="effect"></span>
+                                </div>
+                                <div class="card-content w100dt">
+                                    <p>
+                                        <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                    </p>
+                                    <a href="single-blog.html" class="card-title">
+                                        MediaTek sẽ là hãng đầu tiên trên thế giới phát hành chip 4nm, 
+                                        chưa ra mắt nhưng nhiều nhà sản xuất smartphone đã đặt hàng										
+                                    </a>
+                                    <ul class="post-mate-time left">
+                                        <li>
+                                            <p class="hero left">
+                                                By - <a href="#" class="l-blue">PhoneShop</a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="post-mate right">
+                                        <li class="like">
+                                            <a href="#">
+                                                <i class="icofont icofont-heart-alt"></i> 55
+                                            </a>
+                                        </li>
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="hot-post w100dt mb-10">
+                                <div class="hot-post-image">
+                                    <img src="img/img3.jpg" alt="Image">
+                                    <span class="effect"></span>
+                                </div>
+                                <div class="hot-post-stacked">
+                                    <p>
+                                        <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                    </p>
+                                    <a href="single-blog.html" class="sm-name mb-10">
+                                        Mấy khi có dịp như thế này: Bộ đôi Vsmart Aris và 
+                                        Vsmart Aris Pro giảm giá cực ngon, giá sốc chưa từng có
+                                    </a>
+                                    <div class="hot-post-action">
+                                        <p class="hero left">
+                                            BY - <a href="#" class="l-blue">PhoneShop</a>
+                                        </p>
+                                        <ul class="post-mate right">
+                                            <li class="comment">
+                                                <a href="#">
+                                                    <i class="icofont icofont-comment"></i> 32
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-post w100dt mb-10">
+                                <div class="hot-post-image">
+                                    <img src="img/img2.jpg" alt="Image">
+                                    <span class="effect"></span>
+                                </div>
+                                <div class="hot-post-stacked">
+                                    <p>
+                                        <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                    </p>
+                                    <a href="single-blog.html" class="sm-name mb-10">
+                                        Tổng quan ngoại hình của Samsung Galaxy A22 được tiết lộ thông qua 
+                                        ốp lưng bên thứ ba, thoạt nhìn cứ tưởng Galaxy M62
+                                    </a>
+                                    <div class="hot-post-action">
+                                        <p class="hero left">
+                                            BY - <a href="#" class="l-blue">PhoneShop</a>
+                                        </p>
+                                        <ul class="post-mate right">
+                                            <li class="comment">
+                                                <a href="#">
+                                                    <i class="icofont icofont-comment"></i> 32
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-post w100dt mb-10">
+                                <div class="hot-post-image">
+                                    <img src="img/img1.jpg" alt="Image">
+                                    <span class="effect"></span>
+                                </div>
+                                <div class="hot-post-stacked">
+                                    <p>
+                                        <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                    </p>
+                                    <a href="single-blog.html" class="sm-name mb-10">
+                                        Kỳ vọng Nokia X30: Thiết kế mang tính đột phá, 
+                                        hiệu năng mạnh mẽ hơn và đi kèm sạc nhanh 30W
+                                    </a>
+                                    <div class="hot-post-action">
+                                        <p class="hero left">
+                                            BY - <a href="#" class="l-blue">PhoneShop</a>
+                                        </p>
+                                        <ul class="post-mate right">
+                                            <li class="comment">
+                                                <a href="#">
+                                                    <i class="icofont icofont-comment"></i> 32
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="test-swipe-2" class="tab-contant recent-post">
+
+                        <div class="hot-post w100dt p-15">
+                            <div class="hot-post-image">
+                                <img src="img/img3.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="hot-post-stacked">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="sm-name mb-10">
+                                    Điểm danh loạt sản phẩm sẽ ra mắt trong sự kiện Spring Loaded 
+                                    tối nay: iPad Pro là điểm nhấn, thẻ AirTags, Apple Pencil...
+                                </a>
+                                <div class="hot-post-action">
+                                    <p class="hero left">
+                                        BY - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                    <ul class="post-mate right">
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hot-post w100dt p-15">
+                            <div class="hot-post-image">
+                                <img src="img/img2.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="hot-post-stacked">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="sm-name mb-10">
+                                    Sale khủng: Hàng loạt phụ kiện chính hãng Apple đang có giá hấp 
+                                    dẫn nhờ giảm đến 49%, nhanh vào quẹo lựa ngay nào
+                                </a>
+                                <div class="hot-post-action">
+                                    <p class="hero left">
+                                        BY - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                    <ul class="post-mate right">
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hot-post w100dt p-15">
+                            <div class="hot-post-image">
+                                <img src="img/img1.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="hot-post-stacked">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="sm-name mb-10">
+                                    Samsung Galaxy A31 bắt đầu nhận được bản cập nhật Android 11 
+                                    với giao diện One UI 3.1, sớm hơn 2 tháng so với dự kiến
+                                </a>
+                                <div class="hot-post-action">
+                                    <p class="hero left">
+                                        BY - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                    <ul class="post-mate right">
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hot-post w100dt p-15">
+                            <div class="hot-post-image">
+                                <img src="img/img3.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="hot-post-stacked">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="sm-name mb-10">
+                                    Sau bao lâu chờ đợi thì OPPO A74 cũng đã có hàng trải nghiệm, nhanh 
+                                    đến ngay siêu thị gần nhất để được sờ tận tay nào
+                                </a>
+                                <div class="hot-post-action">
+                                    <p class="hero left">
+                                        BY - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                    <ul class="post-mate right">
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hot-post w100dt p-15">
+                            <div class="hot-post-image">
+                                <img src="img/img2.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="hot-post-stacked">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="sm-name mb-10">
+                                    Tân binh OPPO A74 sắp ra mắt tại Việt Nam: Có ngoại hình bắt mắt 
+                                    và còn những điểm nổi bật nào đáng mong chờ?
+                                </a>
+                                <div class="hot-post-action">
+                                    <p class="hero left">
+                                        BY - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                    <ul class="post-mate right">
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hot-post w100dt p-15">
+                            <div class="hot-post-image">
+                                <img src="img/img1.jpg" alt="Image">
+                                <span class="effect"></span>
+                            </div>
+                            <div class="hot-post-stacked">
+                                <p>
+                                    <a href="#" class="tag left w100dt l-blue mb-10">Công nghệ</a>
+                                </p>
+                                <a href="single-blog.html" class="sm-name mb-10">
+                                    Thánh soi công nghệ: Galaxy A51 màu Bạc Inox trở thành 'cầu nối tình yêu' 
+                                    giữa Quân A.P và Juky San trong MV mới
+                                </a>
+                                <div class="hot-post-action">
+                                    <p class="hero left">
+                                        BY - <a href="#" class="l-blue">PhoneShop</a>
+                                    </p>
+                                    <ul class="post-mate right">
+                                        <li class="comment">
+                                            <a href="#">
+                                                <i class="icofont icofont-comment"></i> 32
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="test-swipe-3" class="tab-contant Comments-post">
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img1.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Nếu là Samfan chớ bỏ qua cơ hội ngàn năm có một này, 
+                                        giảm ngay 2.5 triệu khi mua Galaxy A50s chỉ trong tháng 4	
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img2.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Tính năng đo điện tâm đồ ECG để chẩn đoán bệnh tim 
+                                        trên Apple Watch sẽ có mặt tại Việt Nam vào tuần tới										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img3.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Chỉ còn 2 ngày để đặt trước Huawei Band 6 với mức giá siêu hấp dẫn, 
+                                        cùng quà tặng giới hạn trị giá lên tới 500.000 đồng										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img1.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Smartphone dành cho game thủ Redmi K40 Game Enhanced Edition 
+                                        lộ điểm hiệu năng ấn tượng trên AnTuTu										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img1.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Bạn muốn mua điện thoại Samsung để chơi game? Có liền 5 chiếc Galaxy vừa dùng chip 
+                                        Snapdragon, vừa có giá cực tốt cho bạn đây										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img1.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Mua Realme 8 và Realme 8 Pro nhận liền gói bảo hiểm cực kì giá trị, 
+                                        yên tâm sử dụng mà không lo rơi vỡ màn hình										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img2.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Vsmart Joy 4 sale đậm đà cuối tháng, giá bán sao mà rẻ thế này, 
+                                        sắm liền tay tiết kiệm không ít tiền, quá đã luôn										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img3.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Realme 8 5G ra mắt: Dùng chip Dimensity 700, màn hình 90Hz cùng công nghệ mở 
+                                        rộng RAM xịn sò, giá 7.4 triệu đồng										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img1.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Tin nóng hổi: Điện thoại Galaxy A có giá tầm trung, sale cực nhiệt tận 
+                                        2.5 triệu đồng, giá ngon hết cỡ đừng bỏ lỡ										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <div class="cal s3">
+                                    <img src="img/img1.png" alt="Image" class="circle responsive-img">
+                                </div>
+                                <div class="cal s9">
+                                    <span class="black-text">
+                                        Bạn hay gì chưa? Mừng giỗ tổ, loạt iPhone được giảm cực 
+                                        sốc, máy đẳng cấp nhưng giá ưu đãi quá xá, sắm ngay chờ chi										
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
